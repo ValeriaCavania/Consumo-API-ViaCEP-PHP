@@ -18,7 +18,6 @@ $address = getAddress();
         <p>Digite o CEP para encontrar o endereço.</p>
         <input type="text" placeholder="Digite um cep..." name="cep" value="<?php echo $address->cep ?>">
         <input type="submit">
-        <p>Resultado:</p>
         <input type="text" placeholder="rua" name="rua" value="<?php echo $address->logradouro ?>">
         <input type="text" placeholder="bairro" name="bairro" value="<?php echo $address->bairro ?>">
         <input type="text" placeholder="cidade" name="cidade" value="<?php echo $address->localidade ?>">
